@@ -2,7 +2,7 @@ package Merged_Patterns;
 
 public class Pattern1 {
     public static void main(String[] args) {
-        pattern2(5);
+        pattern5(5);
     }
 
     // pattern Output
@@ -35,11 +35,110 @@ public class Pattern1 {
     }
 
     // method 2
-    static void pattern2(int n) {
+    static void pattern1_1(int n) {
         for (int i = 0; i < 2 * n + 1; i++) {
             int colInRow = (i > n) ? 2 * n - i : i;
             for (int j = 0; j <= colInRow; j++) {
                 System.out.print('*');
+            }
+            System.out.println();
+        }
+    }
+
+    static void pattern2(int n){
+        for (int i = 0; i < n*2+1; i++) {
+            int colInRow = (i > n) ? 2 * n - i : i;
+            for (int j = colInRow; j < n; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j <= colInRow; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    // pattern Output
+    //      *
+    //     **
+    //    ***
+    //   ****
+    //  *****
+    // ******
+    //  *****
+    //   ****
+    //    ***
+    //     **
+    //      *
+    static void pattern3(int n){
+        for (int i = 0; i < n*2+1; i++) {
+            int colInRow = (i > n) ? 2 * n - i : i;
+            for (int j = colInRow; j < n; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j <= colInRow; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    // Pattern output
+    //      * 
+    //     * *
+    //    * * *
+    //   * * * *
+    //  * * * * *
+    // * * * * * *
+    //  * * * * *
+    //   * * * *
+    //    * * *
+    //     * *
+    //      *
+
+    static void pattern4(int n){
+        for (int i = 0; i < n*2+1; i++) {
+            int colInRow = (i > n) ? 2 * n - i : i;
+            for (int j = 0; j <= colInRow; j++) {
+                System.out.print('*');
+            }
+            for (int j = colInRow; j < n; j++) {
+                System.out.print(" ");
+            }
+            for (int j = colInRow; j < n; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j <= colInRow; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    // pattern output
+    // *          *
+    // **        **
+    // ***      ***
+    // ****    ****
+    // *****  *****
+    // ************
+    // *****  *****
+    // ****    ****
+    // ***      ***
+    // **        **
+    // *          *
+
+    static void pattern5(int n){
+        for (int i = 0; i < n*2+1; i++) {
+            int colInRow = (i > n) ? 2 * n - i : i;
+            for (int j = colInRow; j <= n; j++) {
+                System.out.print("*");
+            }
+            for (int j = 0; j < colInRow; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < colInRow; j++) {
+                System.out.print(" ");
+            }
+            for (int j = colInRow; j <= n; j++) {
+                System.out.print("*");
             }
             System.out.println();
         }
