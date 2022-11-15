@@ -1,11 +1,12 @@
-package Star_Patterns;
+package DS_02_Pattern_Questions.Star_Patterns;
 
 import java.util.Scanner;
 
 public class Pattern {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        pattern2(input.nextInt());
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        pattern2(n);
     }
 
     static void pattern1(int n) {
@@ -53,7 +54,5 @@ public class Pattern {
     // ***
     // **
     // *
-
-  
 
 }

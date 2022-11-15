@@ -1,4 +1,4 @@
-package Pattern_With_Spaces;
+package DS_02_Pattern_Questions.Pattern_With_Spaces;
 
 public class Pattern {
     public static void main(String[] args) {

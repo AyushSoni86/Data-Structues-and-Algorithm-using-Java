@@ -1,4 +1,4 @@
-package Pattern_with_Alphabets;
+package DS_02_Pattern_Questions.Pattern_with_Alphabets;
 
 public class Pattern {
     public static void main(String[] args) {

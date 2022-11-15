@@ -1,4 +1,4 @@
-package Patterns_With_Numbers;
+package DS_02_Pattern_Questions.Patterns_With_Numbers;
 
 public class Pattern {
     public static void main(String[] args) {

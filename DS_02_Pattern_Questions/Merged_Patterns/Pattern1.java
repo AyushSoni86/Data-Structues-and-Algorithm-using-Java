@@ -1,4 +1,4 @@
-package Merged_Patterns;
+package DS_02_Pattern_Questions.Merged_Patterns;
 
 public class Pattern1 {
     public static void main(String[] args) {
@@ -143,4 +143,17 @@ public class Pattern1 {
             System.out.println();
         }
     }
+// pattern5 output
+// ************
+// *****  *****
+// ****    ****
+// ***      ***
+// **        **
+// *          *
+// **        **
+// ***      ***
+// ****    ****
+// *****  *****
+// ************
+    
 }
