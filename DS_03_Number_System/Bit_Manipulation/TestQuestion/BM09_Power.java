@@ -1,6 +1,6 @@
 package DS_03_Number_System.Bit_Manipulation.TestQuestion;
 
-public class PowerOfNumber {
+public class BM09_Power {
     public static void main(String[] args) {
         int base = 2;
         int power = 4;

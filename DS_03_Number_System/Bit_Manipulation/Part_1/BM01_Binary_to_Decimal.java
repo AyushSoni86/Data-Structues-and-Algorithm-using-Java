@@ -2,20 +2,16 @@ package DS_03_Number_System.Bit_Manipulation.Part_1;
 
 public class BM01_Binary_to_Decimal {
     public static void main(String[] args) {
-        System.out.println(toDecimal(110101));
+        System.out.println(toDecimal(1101011001));
     }
 
-    static int toDecimal(int binary) {
-        if (binary <= 1)
-            return binary;
-        int n = 0;
+    static int toDecimal(int num) {
         int ans = 0;
-        while (n != 0) {
-            int mask = 1 << n ;
-            int temp = binary%10;
-            ans += temp*mask;
-            binary = binary/10;
-            n++;
+        int i = 0;
+        while (num != 0) {
+            int digit = num % 10;
+            num = num / 10;
+            ans = ans + digit * (int) Math.pow(2, i++);
         }
         return ans;
     }

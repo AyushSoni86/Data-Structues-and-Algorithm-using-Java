@@ -1,6 +1,6 @@
 package DS_03_Number_System.Bit_Manipulation.TestQuestion;
 
-public class PowerOfTwo {
+public class BM08_PowerOfTwo {
     public static void main(String[] args) {
         System.out.println(isPowerOfTwoOrNot(31));
     }
