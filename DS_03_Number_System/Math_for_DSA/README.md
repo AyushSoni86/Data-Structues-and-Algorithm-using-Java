@@ -25,12 +25,14 @@ Squareroot of a number
 
 -using newton raphson method
 
+Factors of number
+
 Euclid Algorithm to find GCD
 
 prime number
 
 Sieve of Eratosthenes
-
+ 
 
 compute a to the poer b mod ((10 power 9) + 7)
 
