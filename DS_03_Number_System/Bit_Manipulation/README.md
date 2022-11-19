@@ -50,5 +50,6 @@
 - Q. Find duplicate in array where the array elements range from 1 to n-1 where n is size of the array✅
 - Q. Google question -> flip image✅
 - Q. Reverse bits of binary number✅
+- Q. Find compliment of number with base 10✅
 
 
