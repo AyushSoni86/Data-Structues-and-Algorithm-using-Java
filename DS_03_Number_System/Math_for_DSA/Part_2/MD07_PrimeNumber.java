@@ -1,6 +1,6 @@
-package DS_03_Number_System.Math_for_DSA;
+package DS_03_Number_System.Math_for_DSA.Part_2;
 
-public class Prime {
+public class MD07_PrimeNumber {
     public static void main(String[] args) {
         int num = 130;
 
@@ -17,4 +17,5 @@ public class Prime {
         }
         return true;
     }
+
 }

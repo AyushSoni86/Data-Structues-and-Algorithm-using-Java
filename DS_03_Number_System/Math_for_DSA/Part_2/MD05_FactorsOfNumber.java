@@ -1,10 +1,8 @@
-package DS_03_Number_System.Math_for_DSA;
+package DS_03_Number_System.Math_for_DSA.Part_2;
 
-public class Factors {
+public class MD05_FactorsOfNumber {
     public static void main(String[] args) {
-        factors(20);
-        System.out.println();
-        factors2(20);
+
     }
 
     static void factors(int n) {

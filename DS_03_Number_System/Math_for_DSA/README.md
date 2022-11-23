@@ -1,39 +1,36 @@
 # TOPIC COVERED -> MATH FOR DSA
 
 
-factorial of number
+## Questions in part 1
 
-trailing Zeros in factorial of number
-
-
-reverse number
-
-palindrome numbers
-
-fibonacci number
-
-armstrong numbers
-
-happy number
+- Q. Reverse a number.✅
+- Q. Check wheather the number is Palindrome number or not.✅
+- Q. Check wheather the number is Armstrong number or not.✅
+- Q. Check wheather the number is Perfect number or not.✅
+- Q. Check wheather the number is Happy number or not.✅
+- Q. Find the nth fibonacci Number.✅
+- Q. Find the nth Catalan Number.✅
+- Q. Find wheather the number is Smith number or not.✅
 
 
-Fast Power
+---
 
-Squareroot of a number
+## Questions in part 2
 
--using binary search
+- Q. Find the Factorial of a number✅.
+- Q. Find trailing zeroes in Factorial of a number✅.
+- Q. Calculate power using fast power method✅.
+- Q. Calculate Squareroot of a number✅.
+- Q. Calculate Factors of given of a number✅.
+- Q. Calculate GCD/HCF using Euclid Algorithm✅.
+- Q. Check wheather the number is Prime number or not.✅
+- Q. Calculate prime numbers within a range using Sieve Algorithm.✅
+- Q. Modular Arithematics for competitive coding.✅
 
--using newton raphson method
 
-Factors of number
 
-Euclid Algorithm to find GCD
+---
 
-prime number
 
-Sieve of Eratosthenes
- 
 
-compute a to the poer b mod ((10 power 9) + 7)
 
-Modulo Arithematics

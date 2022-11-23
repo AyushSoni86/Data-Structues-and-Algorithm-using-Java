@@ -1,8 +1,8 @@
-package DS_03_Number_System.Math_for_DSA;
+package DS_03_Number_System.Math_for_DSA.Part_2;
 
-public class BinarySearchSqrt {
+public class MD04_SquareRoot {
     public static void main(String[] args) {
-        System.out.printf("%.3f", sqrt(37, 3));
+        
     }
 
     static double sqrt(int n, int p) {
@@ -30,6 +30,19 @@ public class BinarySearchSqrt {
             }
             root -= incr;
             incr /= 10;
+        }
+        return root;
+    }
+
+    static double sqrt(double n) {
+        double x = n;
+        double root;
+        while (true) {
+            root = 0.5 * (x + (n / x));
+            if (Math.abs(root - x) < 0.5) {
+                break;
+            }
+            x = root;
         }
         return root;
     }
