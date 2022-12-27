@@ -1,0 +1,10 @@
+Majority Elements
+Maximum Sum Subarray
+Stock Buy And Sell - 1
+Stock Buy And Sell - 2
+Rainwater trapping problems
+
+
+maximum till i
+
+sum of all subarrays
